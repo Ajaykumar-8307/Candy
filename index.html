@@ -54,6 +54,19 @@
         .download-button:hover {
             background-color: #B6005B;
         }
+        .bottom-corner-button {
+        position: fixed; /* Fixed positioning so it stays in the viewport */
+        bottom: 20px; /* Distance from the bottom of the viewport */
+        right: 20px; /* Distance from the right of the viewport */
+        padding: 10px 20px;
+        background-color: #007bff; /* Blue color, you can change this */
+        color: #fff; /* White text */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        z-index: 1000; /* Ensures the button is on top of other elements */
+        }
     </style>
 <link rel="Shortern Icon" type="x-icon" href="ico.png"></link>
 </head>
@@ -66,5 +79,6 @@
         <p>Download Candy ChatBot Version</p>
         <a href="Candy_ChatBot.html" class="download-button">Download ChatBot</a></br>
     </div>
+    <button class="bottom-corner-button">Click Me!</button>
 </body>
 </html>
