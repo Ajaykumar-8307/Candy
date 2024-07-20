@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.star-rating {
+    direction: rtl;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.star {
+    color: lightgray;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]:checked ~ label {
+    color: gold;
+}
+
+input[type="radio"]:not(:checked) ~ label:hover,
+input[type="radio"]:not(:checked) ~ label:hover ~ label {
+    color: gold;
+}
