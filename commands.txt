@@ -1,0 +1,17 @@
+Available Commands :
+
+open notepad 
+open cmd 
+close cmd 
+play music 
+close music 
+open youtube 
+open news 
+open google 
+search on wikipedia 
+play on youtube &^
+whatsapp 
+screenshot 
+next slide 
+bye 
+mode
