@@ -1,5 +1,6 @@
 Available Commands :
 
+Hello
 open notepad 
 open cmd 
 close cmd 
